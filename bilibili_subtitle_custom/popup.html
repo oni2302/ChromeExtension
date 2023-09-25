@@ -1,0 +1,39 @@
+<!DOCTYPE html >
+<html  class="rounded-container" lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tùy chỉnh phụ đề Bilibili
+  </title>
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+  <div class="container-fluid p-0 m-0">
+    <div class="row align-items-center">
+      <div class="col-1">
+        <div class="logo">
+          <img src="images/icon128.png" width="35" height="35" alt="" srcset="" >
+        </div>
+      </div>
+      <div class="col-1">
+        <div class="author m-3"><span>ONI</span></div>
+      </div>
+    </div>
+    <h6>Tiện ích hỗ trợ xem Bilibili</h6>
+    <div class="input-group mb-3">
+      <input id="token" type="text" class="form-control" disabled>
+      <button class="btn btn-outline-secondary" type="button" id="getToken">Lấy token</button>
+    </div>
+    <div class="input-group flex-nowrap">
+      <span class="input-group-text">Hành động hiện tại</span>
+      <input id="action" type="text" class="form-control" placeholder="Chưa có" disabled>
+    </div>
+    <script src="popup.js"></script>
+  </div>
+<script src="background.js"></script>
+
+</body>
+
+</html>
