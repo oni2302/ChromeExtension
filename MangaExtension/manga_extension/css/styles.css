@@ -1,0 +1,35 @@
+@import 'bootstrap.css';
+
+@font-face {
+    font-family: 'Roboto Mono';
+    src: url(RobotoMono-Regular.ttf);
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: 100%;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url(OpenSans-Regular.ttf);
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: 100%;
+    font-display: swap;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace !important;
+    background-color: white;
+    width: max-content;
+    padding: 0 10px;
+}
+.logo{
+    border-radius: 50%;
+    overflow: hidden;
+    width: fit-content;
+    height: fit-content;
+}
+.logo img{
+    aspect-ratio: 1/1;
+}
