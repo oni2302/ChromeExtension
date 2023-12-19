@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "Bilibili Tùy Chỉnh Phụ Đề",
+    "name": "Manga Remote",
     "version": "1.0.0",
-    "description": "Tùy chỉnh giao diện phụ đề cho wibu Bilibili.",
+    "description": "Điều khiển manga bằng extension thông qua app trên điện thoại",
     "permissions": [
       "activeTab",
       "scripting",

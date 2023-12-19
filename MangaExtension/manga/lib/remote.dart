@@ -187,7 +187,7 @@ class _RemoteState extends State<Remote> {
                       ),
                     ],
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 10,
                   ),
                   Expanded(
@@ -221,15 +221,13 @@ class _RemoteState extends State<Remote> {
                           }
                         }
                       },
-                      child: Expanded(
-                        child: Container(
-                          color: const Color.fromARGB(255, 225, 207, 248),
-                          child: const Center(
-                            child: Icon(
-                              Icons.swipe_vertical,
-                              color: Color.fromARGB(255, 197, 197, 197),
-                              size: 40.0,
-                            ),
+                      child: Container(
+                        color: const Color.fromARGB(255, 225, 207, 248),
+                        child: const Center(
+                          child: Icon(
+                            Icons.swipe_vertical,
+                            color: Color.fromARGB(255, 197, 197, 197),
+                            size: 40.0,
                           ),
                         ),
                       ),
